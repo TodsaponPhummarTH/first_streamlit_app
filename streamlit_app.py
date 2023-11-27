@@ -54,6 +54,9 @@ st.write('Thanks for adding ', add_myfruit)
 
 
 
+#Insert
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+
 
 
 
