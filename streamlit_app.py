@@ -43,9 +43,9 @@ import snowflake.connector
 my_cnx = snowflake.connector.connect(**st.secrets["snowflake"])
 my_cur = my_cnx.cursor()
 my_cur.execute("select * from pc_rivery_db.public.fruit_load_list")
-my_data_row = my_cur.fetchone()
-st.text("The fruits load list contain:")
-st.text(my_data_row)
+my_data_rows = my_cur.fetchall()
+st.header("The fruits load list contain:")
+st.dataframe(my_data_row)
 
 
 
