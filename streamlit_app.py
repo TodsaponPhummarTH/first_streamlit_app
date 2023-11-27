@@ -49,7 +49,7 @@ st.dataframe(my_data_rows)
 
 
 #Enter Text and use as variable
-add_myfruit = st.text_input('What fruit would you like to add?)
+add_myfruit = st.text_input('What fruit would you like to add?')
 st.write('Thanks for adding ', add_myfruit)
 
 
