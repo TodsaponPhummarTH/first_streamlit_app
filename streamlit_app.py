@@ -42,7 +42,7 @@ try:
       back_from_function = get_fruityvice_data(fruit_choice)
       st.dataframe(back_from_function)
 
-st.write('The user entered ', fruit_choice)
+#st.write('The user entered ', fruit_choice)
 
 #dont run anything past here when troubleshoot
 st.stop()
