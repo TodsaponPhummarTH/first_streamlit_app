@@ -37,10 +37,10 @@ st.header("Fruityvice Fruit Advice!")
 try:
   fruit_choice = st.text_input('What fruit would you like information about?')
   if not fruit_choice:
-    st.error("Please select a fruit to get information.")
+      st.error("Please select a fruit to get information.")
   else:
-    back_from_function = get_fruityvice_data(fruit_choice)
-    st.dataframe(back_from_function)
+      back_from_function = get_fruityvice_data(fruit_choice)
+      st.dataframe(back_from_function)
 
 st.write('The user entered ', fruit_choice)
 
