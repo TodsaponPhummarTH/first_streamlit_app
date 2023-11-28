@@ -78,7 +78,7 @@ if st.button('Add a Fruit to the List'):
   back_from_function = insert_row_snowflake(add_myfruit)
   st.text(back_from_function)
   
-st.write('Thanks for adding ', add_myfruit)
+
 
 
 #dont run anything past here when troubleshoot
