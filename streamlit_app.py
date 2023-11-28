@@ -48,7 +48,7 @@ except URLError as e:
 st.write('The user entered ', fruit_choice)
 
 #dont run anything past here when troubleshoot
-st.stop()
+#st.stop()
 
 #import snowflake.connector
 st.header("The fruits load list contain:")
@@ -81,6 +81,7 @@ if st.button('Add a Fruit to the List'):
 st.write('Thanks for adding ', add_myfruit)
 
 
-
+#dont run anything past here when troubleshoot
+st.stop()
 
 
